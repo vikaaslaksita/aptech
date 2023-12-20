@@ -1,0 +1,14 @@
+install git
+login to git
+ssh keygen
+open public key copy the contents and paste it in git
+generate ssh key and add it to your git hub account
+repo -> code -> ssh >copy the link
+In any folder open git bash adn execute "git clone <link>"
+open the project in VsCode
+open terminal
+execute "git checkout -b enhancement"
+start making changes to the files
+execute "git add ."  
+execute "git commit -m "<message>"" 
+execute "git push origin enhancement"
